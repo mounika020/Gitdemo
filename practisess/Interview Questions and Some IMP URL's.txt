@@ -1,0 +1,66 @@
+https://www.techbeamers.com/java-coding-questions-software-testers/
+https://www.techbeamers.com/java-interview-questions/
+https://www.javabykiran.com/corejava-j2ee-selenium-testing-interview-question-answer.html
+
+Fibonacci Series
+Reverse String
+Find Largest value from given array
+How to display all the prime numbers between 1 and 100
+How to display all the prime numbers between 1 and n (n is the number, get the input from user)
+How to find the given number is a prime number or not by getting input from the user
+Factorial of a number
+Swap both variable values without using any temp variable
+Write a program to remove given character from string.
+Write code to filter duplicate elements from an array and print as a list?
+Write code to sort the list of strings using Java collection?
+Write a function to reverse a number in Java?
+Write a Java program to find out the first two max values from an array?
+Write a Java program to find the longest substring from a given string which doesn’t contain any duplicate characters?
+Write Java code to get rid of multiple spaces from a string?
+Write Java code to identify a number as Palindrome?
+Write Java code to swap two numbers without using a temporary variable?
+Write a Java program to demonstrate string reverse with and without StringBuffer class?
+
+What is the difference between static and not static variable?
+Static variables are preceded by static keyword. For non-static variable, there is not any preceding keyword.
+Memory is allocated for static variables at the time of class loading. Memory is allocated to non- static variables whenever an object is created.
+Memory is allocated only once to static variables on class loading. Memory is allocated multiple time whenever a new object is created to non-static variables.
+Static variable example : Collage name of students, Company name of employees..
+
+7 : What is the difference between static and not static(Instance) method?
+Answer : Difference between static and non static method is as bellow.
+Method declared with static keyword is static method. If Method declared without static keyword then it is instance method.
+No need of object to call static methods. Object needed to call instance method.
+Can not access non static stuff inside static methods directly. Opposite to it, We can access static and non static stuff directly inside instance method.
+
+
+What is return type of testng @DataProvider annotation method?  -> It will return 2-D object array “Object[][]”.
+Constructor must not have any return type
+
+General Questions:
+-----------------
+When do you prefer an interface over abstract class and vice versa?
+Use abstract clases and inheritance if you can make the statement “A is a B”. Use interfaces if you can make the statement “A is capable of [doing] as”, or also, abstract for what a class is, interface for what a class can do.
+
+When we talk about abstract classes we are defining characteristics of an object type; specifying what an object is.
+When we talk about an interface and define capabilities that we promise to provide, we are talking about establishing a contract about what the object can do.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+What is @Factory annotation in TestNG -> TestNG @Factory Annotation. TestNG @Factory annotation is used to specify a method as a factory for providing objects to be used by TestNG for test classes. The method marked with @Factory annotation should return Object array
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+How many TestNG annotations are there? - Total 15 TestNG Annotations -> @BeforeSuite, @BeforeTest, @BeforeClass, @BeforeMethod, @Test, @AfterSuite, @AfterTest, @AfterClass, @AfterMethod,@BeforeGroups, @AfterGroups, @DataProvider, @Listners,@Parameters,@Factory
+What is an Instance variable in java
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+1.	Java 8 Features
+2.	Threads – sleep, wait, join 
+3.	How many ways we create an object in java
+4.	What is synchronization
+5.	Static and instance blocks
+6.	If we want to run @aftermethod even if the setup is failed in @Before method how do we do it 
+7.	Design Patterns
+8.	Cucmber vs jbehave
+9.	What is the difference between abstract class and interface
+10.	What is the difference between abstract class and interface after java 8
+11.	When to use abstract class and interface
+12.	Difference between webservice and rest
+13.     Can we inherit Constructor
+14. 

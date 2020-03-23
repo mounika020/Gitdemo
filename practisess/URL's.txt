@@ -1,0 +1,17 @@
+http://www.projectdebug.com/
+https://sahutestingexpert.blogspot.com/p/api-testing.html
+http://www.dmc.fmph.uniba.sk/public_html/doc/Java/index.htm
+http://electoralsearch.in
+http://www.topjavatutorial.com/
+https://www.journaldev.com/
+https://docs.oracle.com/javase/tutorial/information/glossary.html#C
+https://www.cs.kent.ac.uk/people/staff/djb/oop/glossary.html
+http://math.hws.edu/eck/cs124/downloads/javanotes7.pdf
+https://www.mkyong.com/featured/top-5-free-java-ebooks/
+https://javaconceptoftheday.com/
+https://www.rankred.com/java-cheat-sheets/
+https://www.w3resource.com/java-exercises/basic/index.php
+https://www.automatetheplanet.com/selenium-webdriver-locators-cheat-sheet/
+https://www.cheatography.com/narayanan-palani/cheat-sheets/selenium-webdriver-cheat-sheet/
+https://www.cypress.io/
+http://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html

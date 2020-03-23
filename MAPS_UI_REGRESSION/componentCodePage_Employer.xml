@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="componentPageTestSuite">
+	<test name="componentPageTestCases">
+		<classes>
+			<class name="testCases.TC_EMP_Insert_Chart_ANOC"></class>
+			<class name="testCases.TC_EMP_Update_Chart_ANOC"></class>
+			<class name="testCases.TC_EMP_Delete_Chart_ANOC" />
+			<class name="testCases.TC_EMP_ErrorMessage_InvalidPlanData"></class>
+			<class name="testCases.TC_EMP_ErrorMessage_InvalidPlanYear"></class>
+			<class name="testCases.TC_EMP_ErrorMessage_Max30Chars"></class>
+			<class name="testCases.TC_EMP_ErrorMessage_Min4Chars"></class>
+			<class name="testCases.TC_EMP_Search_ANOC"></class>
+			<class name="testCases.TC_EMP_Search_Chart"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

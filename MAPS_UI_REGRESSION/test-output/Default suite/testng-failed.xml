@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testCases.ComponentCode_Individual_TestCases">
+        <methods>
+          <include name="HTMLreporter"/>
+          <include name="getResult"/>
+          <include name="TC_IND_Insert_Chart_ANOC"/>
+          <include name="reportWriter"/>
+        </methods>
+      </class> <!-- testCases.ComponentCode_Individual_TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

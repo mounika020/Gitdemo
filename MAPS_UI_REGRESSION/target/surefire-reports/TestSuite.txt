@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 17, Time elapsed: 49.197 sec <<< FAILURE! - in TestSuite
+TC_IND_Insert_Chart_ANOC(testCases.ComponentCode_Individual_TestCases)  Time elapsed: 40.732 sec  <<< FAILURE!
+java.lang.AssertionError: failed due to either process record buttion is not visible or not clickable
+	at testCases.ComponentCode_Individual_TestCases.TC_IND_Insert_Chart_ANOC(ComponentCode_Individual_TestCases.java:40)
+
+getResult(testCases.ComponentCode_Individual_TestCases)  Time elapsed: 41.828 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+Modal dialog present: 
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'LH7U05CG6272CBT', ip: '10.198.67.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-componentPageTestSuite">
+              <span class="suite-name border-failed">componentPageTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-componentPageTestSuite">
+                    <span>C:\Users\alokesh\MAPS_UI_REGRESSION\componentCodePage_Individual.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-componentPageTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-componentPageTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-componentPageTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-componentPageTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-componentPageTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-componentPageTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,  8 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-componentPageTestSuite" class="hide-methods failed suite-componentPageTestSuite"> (hide)</a> <!-- hide-methods failed suite-componentPageTestSuite -->
+                      <a href="#" panel-name="suite-componentPageTestSuite" class="show-methods failed suite-componentPageTestSuite"> (show)</a> <!-- show-methods failed suite-componentPageTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-componentPageTestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_Insert_Chart_ANOC">TC_IND_Insert_Chart_ANOC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-componentPageTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-componentPageTestSuite" class="hide-methods skipped suite-componentPageTestSuite"> (hide)</a> <!-- hide-methods skipped suite-componentPageTestSuite -->
+                      <a href="#" panel-name="suite-componentPageTestSuite" class="show-methods skipped suite-componentPageTestSuite"> (show)</a> <!-- show-methods skipped suite-componentPageTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-componentPageTestSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_Delete_Chart_ANOC">TC_IND_Delete_Chart_ANOC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_ErrorMessage_InvalidPlanData">TC_IND_ErrorMessage_InvalidPlanData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_ErrorMessage_InvalidPlanYear">TC_IND_ErrorMessage_InvalidPlanYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_ErrorMessage_Max30Chars">TC_IND_ErrorMessage_Max30Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_ErrorMessage_Min4Chars">TC_IND_ErrorMessage_Min4Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_Search_Chart">TC_IND_Search_Chart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="TC_IND_Update_Chart_ANOC">TC_IND_Update_Chart_ANOC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-componentPageTestSuite" title="testCases.ComponentCode_Individual_TestCases" hash-for-method="individual_serach_chart">individual_serach_chart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-componentPageTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-componentPageTestSuite" class="panel componentPageTestSuite">
+          <div class="suite-componentPageTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.ComponentCode_Individual_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_Insert_Chart_ANOC">
+                  </a> <!-- TC_IND_Insert_Chart_ANOC -->
+                  <span class="method-name">TC_IND_Insert_Chart_ANOC</span>
+                  <div class="stack-trace">java.lang.AssertionError: failed due to either process record buttion is not visible or not clickable
+	at actions.Actions_ComponentCodePage.clickOnProcessRecordsButton(Actions_ComponentCodePage.java:80)
+	at testCases.ComponentCode_Individual_TestCases.TC_IND_Insert_Chart_ANOC(ComponentCode_Individual_TestCases.java:40)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-componentPageTestSuite-class-failed -->
+          <div class="suite-componentPageTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.ComponentCode_Individual_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_Delete_Chart_ANOC">
+                  </a> <!-- TC_IND_Delete_Chart_ANOC -->
+                  <span class="method-name">TC_IND_Delete_Chart_ANOC</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_ErrorMessage_InvalidPlanData">
+                  </a> <!-- TC_IND_ErrorMessage_InvalidPlanData -->
+                  <span class="method-name">TC_IND_ErrorMessage_InvalidPlanData</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_ErrorMessage_InvalidPlanYear">
+                  </a> <!-- TC_IND_ErrorMessage_InvalidPlanYear -->
+                  <span class="method-name">TC_IND_ErrorMessage_InvalidPlanYear</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_ErrorMessage_Max30Chars">
+                  </a> <!-- TC_IND_ErrorMessage_Max30Chars -->
+                  <span class="method-name">TC_IND_ErrorMessage_Max30Chars</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_ErrorMessage_Min4Chars">
+                  </a> <!-- TC_IND_ErrorMessage_Min4Chars -->
+                  <span class="method-name">TC_IND_ErrorMessage_Min4Chars</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_Search_Chart">
+                  </a> <!-- TC_IND_Search_Chart -->
+                  <span class="method-name">TC_IND_Search_Chart</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IND_Update_Chart_ANOC">
+                  </a> <!-- TC_IND_Update_Chart_ANOC -->
+                  <span class="method-name">TC_IND_Update_Chart_ANOC</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="individual_serach_chart">
+                  </a> <!-- individual_serach_chart -->
+                  <span class="method-name">individual_serach_chart</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: 
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;LH7U05CG6272CBT&apos;, ip: &apos;10.198.67.90&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=false, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=false, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23106/, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d86f68a0-3f77-40a1-bd0b-a2d6959c46c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:197)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:192)
+	at ru.yandex.qatools.ashot.shooting.SimpleShootingStrategy.getScreenshot(SimpleShootingStrategy.java:26)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at utilities.Utils.takeScreenShot_Ashot(Utils.java:91)
+	at miscellaneous.BeforeAndAfter.getResult(BeforeAndAfter.java:51)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-componentPageTestSuite-class-skipped -->
+        </div> <!-- panel componentPageTestSuite -->
+        <div panel-name="test-xml-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\alokesh\MAPS_UI_REGRESSION\componentCodePage_Individual.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;componentPageTestSuite&quot;&gt;
+  &lt;test name=&quot;componentPageTestCases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ComponentCode_Individual_TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- componentPageTestCases --&gt;
+&lt;/suite&gt; &lt;!-- componentPageTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for componentPageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">componentPageTestCases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for componentPageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for componentPageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_componentPageTestSuite');
+function tableData_componentPageTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_IND_Insert_Chart_ANOC')
+data.setCell(0, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(0, 3, 40705);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_IND_Delete_Chart_ANOC')
+data.setCell(1, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_IND_ErrorMessage_Min4Chars')
+data.setCell(2, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_IND_ErrorMessage_InvalidPlanYear')
+data.setCell(3, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_IND_Search_Chart')
+data.setCell(4, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_IND_Update_Chart_ANOC')
+data.setCell(5, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_IND_ErrorMessage_Max30Chars')
+data.setCell(6, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'individual_serach_chart')
+data.setCell(7, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_IND_ErrorMessage_InvalidPlanData')
+data.setCell(8, 2, 'testCases.ComponentCode_Individual_TestCases')
+data.setCell(8, 3, 0);
+window.suiteTableData['componentPageTestSuite']= { tableData: data, tableDiv: 'times-div-componentPageTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-componentPageTestSuite">
+              </div> <!-- times-div-componentPageTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for componentPageTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-componentPageTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ComponentCode_Individual_TestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">HTMLreporter</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_IND_Insert_Chart_ANOC</span>
+                <span class="method-start">1603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=TC_IND_Insert_Chart_ANOC status=FAILURE method=ComponentCode_Individual_TestCases.T...)</span>
+                <span class="method-start">42335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_Update_Chart_ANOC</span>
+                <span class="method-start">43429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_Delete_Chart_ANOC</span>
+                <span class="method-start">43429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_ErrorMessage_InvalidPlanData</span>
+                <span class="method-start">43430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_ErrorMessage_InvalidPlanYear</span>
+                <span class="method-start">43433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_ErrorMessage_Max30Chars</span>
+                <span class="method-start">43433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_ErrorMessage_Min4Chars</span>
+                <span class="method-start">43434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">individual_serach_chart</span>
+                <span class="method-start">43436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_IND_Search_Chart</span>
+                <span class="method-start">43436 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

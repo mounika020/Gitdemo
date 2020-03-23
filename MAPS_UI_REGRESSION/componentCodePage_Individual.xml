@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="componentPageTestSuite">
+	<test name="componentPageTestCases">
+		<classes>
+			<class name="testCases.ComponentCode_Individual_TestCases"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

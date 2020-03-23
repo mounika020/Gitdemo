@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MAPS]">
+  <test name="EOBTestCases_GroupExceptions(failed)">
+    <classes>
+      <class name="testCases.ComponentCode_Individual_TestCases">
+        <methods>
+          <include name="TC_IND_ErrorMessage_InvalidPlanYear"/>
+          <include name="TC_IND_Search_Chart"/>
+          <include name="TC_IND_ErrorMessage_InvalidPlanData"/>
+          <include name="individual_serach_chart"/>
+          <include name="HTMLreporter"/>
+          <include name="getResult"/>
+          <include name="TC_IND_Insert_Chart_ANOC"/>
+          <include name="reportWriter"/>
+          <include name="TC_IND_ErrorMessage_Min4Chars"/>
+          <include name="TC_IND_Delete_Chart_ANOC"/>
+          <include name="TC_IND_ErrorMessage_Max30Chars"/>
+          <include name="TC_IND_Update_Chart_ANOC"/>
+        </methods>
+      </class> <!-- testCases.ComponentCode_Individual_TestCases -->
+    </classes>
+  </test> <!-- EOBTestCases_GroupExceptions(failed) -->
+</suite> <!-- Failed suite [MAPS] -->

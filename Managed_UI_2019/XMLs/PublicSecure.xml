@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IGE">
+	<test name="US1257895" preserve-order="true">
+		<classes>
+			<class name="miscellaneous.BeforeAndAfter"></class>
+			<class name="runners.Runner_Configuration_ManagedUI_SearchScreen_PublicAndSecure"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
+
+	
